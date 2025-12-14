@@ -1,0 +1,10 @@
+<svg width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sphereGradient" cx="33%" cy="33%" r="70%" fx="33%" fy="33%">
+      <stop offset="0%" stop-color="hsl(212, 100%, 68%)" />
+      <stop offset="100%" stop-color="hsl(212, 100%, 26%)" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="hsl(212, 70%, 60%)" />
+  <circle cx="100" cy="100" r="90" fill="url(#sphereGradient)" />
+</svg>
